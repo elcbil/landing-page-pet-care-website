@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+        <li> <a href="#home">Home </a></li>
+        <li> <a href="#tips">Tips </a></li>
+        <li> <a href="#product">Product </a></li>
+        <li> <a href="#treats">Treats </a></li>  
+      </ul>
+      <ul>
+        <li> <a href=""> DoCat </a></li>
+        <li class="hideOnMobile"> <a href="#home"> Home </a></li>
+        <li class="hideOnMobile"> <a href="#tips"> Tips </a></li>
+        <li class="hideOnMobile"> <a href="#product"> Product </a></li>
+        <li class="hideOnMobile"> <a href="#home"> Treats </a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="home" class="home">
+      <div class="home-text">
+        <h1>Getting a pet is easy, but caring for them takes love and effort.</h1>
+        <p>A happy pet begins with a well-informed owner. We provide everything you need to ensure your dogs and cats live their happiest, healthiest lives. Start your journey to better pet care today! </p>
+        <a href="#quote"><button>Learn More</button></a>
+      </div>
+      <div class="home-pict">
+        <img src="pict/dog-pict.png" alt="dog picture">
+      </div>
+    </section>
+
+    <article id="tips" class="cat-info">
+      <section>
+        <div class="top-c-tips">
+          <h1>Ways to Take care of Your Cat</h1>
+        </div>
+
+        <div class="c-tips">
+          <section class="ctips">
+            <h2>Dental Care</h2>
+            <p> Brush your cat's teeth or provide dental treats to prevent oral health issues.</p>
+          </section>
+          <section class="ctips">
+            <h2>Balanced Diet</h2>
+            <p>Feed your cat a high-quality, balanced diet to support overall health.</p>
+          </section>
+          <section class="ctips">
+            <h2>Litter Box Hygiene</h2>
+            <p>Keep the litter box clean to encourage proper use and prevent infections.</p>
+          </section>
+          <section class="ctips">
+            <h2>Playtime</h2>
+            <p>Engage your cat in daily play to stimulate their mind and keep them active.</p>
+          </section>
+          <section class="ctips">
+            <h2>Regular Pet Visits</h2>
+            <p>Schedule regular check-ups to monitor your cat's health and catch any issues early.</p>
+          </section>
+          <section class="ctips">
+            <h2>Grooming</h2>
+            <p>Brush your cat regularly to reduce shedding and prevent hairballs.</p>
+          </section>
+        </div>
+      </section>
+
+      <aside>
+        <div class="cpimg">
+          <img src="pict/cremepuff.jpg" alt="creme puff picture">
+        </div>
+        <h2>Crème Puff: The World's Oldest Living Cat</h2>
+        <h3> (3 Agustus 1967 - 6 Agustus 2005)</h3>
+        <p>Crème Puff was born on August 3, 1967, in Austin, Texas, United States. This very special cat was owned by his owner, Jake Perry, a cook and supermarket employee in the city.</p>
+      </aside>
+    </article>
+    
+    <section id="product" class="product">
+      <div class="top-acc">
+        <h1>Recommend Stuff</h1>
+      </div>
+      
+      <div class="swiper Stuff">
+        <div class="swiper-wrapper stuff-wrapper">
+          <div class="swiper-slide stuff-slide">
+            <div class="pict">
+              <img src="pict/p1.jpg" alt="product picture">
+
+            </div>
+            <div class="cap">
+              <h1>Feather Waggler Cat Toy</h1>
+            </div>
+          </div>
+          <div class="swiper-slide stuff-slide">
+            <div class="pict">
+              <img src="pict/p2.jpg" alt="product picture">
+
+            </div>
+            <div class="cap">
+              <h1>Cat Toy Fish with Catnip</h1>
+            </div>
+          </div>
+          <div class="swiper-slide stuff-slide">
+            <div class="pict">
+              <img src="pict/p3.png" alt="product picture">
+            </div>
+            <div class="cap">
+              <h1>Snack Roll Dog Toy</h1>
+            </div>
+          </div>
+          <div class="swiper-slide stuff-slide">
+            <div class="pict">
+              <img src="pict/p4.png" alt="product picture">
+            </div>
+            <div class="cap">
+              <h1>Petstages Chase Meowtain Cat Toy</h1>
+            </div>
+          </div>
+          <div class="swiper-slide stuff-slide">
+            <div class="pict">
+              <img src="pict/p5.png" alt="product picture">
+            </div>
+            <div class="cap">
+              <h1>Pet Bowl</h1>
+            </div>
+          </div>
+          <div class="swiper-slide stuff-slide">
+            <div class="pict">
+              <img src="pict/p6.png" alt="product picture">
+            </div>
+            <div class="cap">
+              <h1>Scratching Board For Cat</h1>
+            </div>
+          </div>
+          <div class="swiper-slide stuff-slide">
+            <div class="pict">
+              <img src="pict/p7.jpg" alt="product picture">
+            </div>
+            <div class="cap">
+              <h1>Pet Trolley Small</h1>
+            </div>
+          </div>
+          <div class="swiper-slide stuff-slide">
+            <div class="pict">
+              <img src="pict/p8.jpeg" alt="product picture">
+            </div>
+            <div class="cap">
+              <h1>Washable Pet Bed</h1>
+            </div>
+          </div>
+          <div class="swiper-slide stuff-slide">
+            <div class="pict">
+              <img src="pict/p9.jpeg" alt="product picture">
+            </div>
+            <div class="cap">
+              <h1>Pet Brush Silicone</h1>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    <section id="quote" class="quote" >
+      <div class="left-quote">
+        <img src="pict/quote.png" alt="quotation mark picture">
+      </div>
+      <div class="right-quote">
+        <p>"Your pet is only part of a small chapter of your life, but for them, you're their whole book."</p>
+      </div>
+    </section>
+
+    <article id="treats" class="pet-treats">
+      <section class="treats">
+        <div class="list-cover">
+          <h1>Healthy Treat Ideas for Cats</h1>
+          <div class="treat-list">
+            <ul class="list">
+              <li>Freeze-Dried Meat Treats</li>
+              <li>Cantaloupe Balls</li>
+              <li>Cheese Bits</li>
+              <li>Cooked Fish</li>
+              <li>Dehydrated Sweet Potato</li>
+            </ul>
+            <ul class="list">
+              <li>Scrambled Eggs</li>
+              <li>Pumpkin Oat Cookies</li>
+              <li>Steamed Broccoli Florets</li>
+              <li>Pumpkin Puree</li>
+              <li>Lean Meats</li>
+            </ul>
+          </div>
+        </div>
+        <div class="treats-img">
+          <img src="pict/ctreats-pict.png" alt="cat picture">
+        </div>
+      </section>
+    
+      <section class="treats">
+        <div class="treats-img2">
+          <img src="pict/dtreats-pict.png" alt="dog picture">
+        </div>
+        <div class="list-cover">
+          <h1>Dangerous Food for Dogs</h1>
+          <div class="treat-list">
+            <ul class="list">
+              <li>Freeze-Dried Meat Treats</li>
+              <li>Cantaloupe Balls</li>
+              <li>Cheese Bits</li>
+              <li>Cooked Fish</li>
+              <li>Dehydrated Sweet Potato</li>
+            </ul>
+            <ul class="list">
+              <li>Scrambled Eggs</li>
+              <li>Pumpkin Oat Cookies</li>
+              <li>Steamed Broccoli Florets</li>
+              <li>Pumpkin Puree</li>
+              <li>Lean Meats</li>
+            </ul>
+          </div>
+        </div>
+    </article>
+    
+    
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <h1>DoCat</h1>
+      <div>
+      <a href="#home">HOME</a>
+      <a href="#tips">TIPS</a>
+      <a href="#product">PRODUCT</a>
+      <a href="#treats">TREATS</a>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-contact">
+      <p>&copy; 2025 DoCat. All right reserved </p>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
